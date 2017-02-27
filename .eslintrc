@@ -1,0 +1,21 @@
+{
+  "env": {
+    "es6": true,
+    "node": true,
+    "mocha": true
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "semi": ["error", "always"],
+    "quotes": [2, "single", {"avoidEscape": false, "allowTemplateLiterals": true}],
+    "indent": ["error", 2, {"SwitchCase": 1}],
+    "no-empty": ["error", {"allowEmptyCatch": true }],
+    "no-console": 0,
+    "strict": ["error", "global"],
+    "comma-dangle": ["error", "always-multiline"]
+  },
+  "globals": {
+    "expect": true,
+    "sinon": true
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "extends": [
+    "../.eslintrc",
+    "plugin:react/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": false
+  },
+  "plugins": [
+    "react"
+  ],
+  "globals": {
+    "global": true,
+    "require": true,
+    "module": true,
+    "mount": true,
+    "render": true,
+    "shallow": true,
+  }
+}
